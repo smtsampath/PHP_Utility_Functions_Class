@@ -7,7 +7,7 @@
 
 class Utility_Class {
 
-	############ Find the position of the first occurrence of a substring in a string ############
+    ############ Find the position of the first occurrence of a substring in a string ############
     public static function strpos_arr($haystack, $needle) {
         if (!is_array($needle))
             $needle = array($needle);
